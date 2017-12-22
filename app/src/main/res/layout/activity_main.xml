@@ -11,9 +11,11 @@
         android:orientation="vertical"
         android:layout_gravity="center">
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/et1"/>
+            android:layout_width="300dp"
+            android:layout_height="67dp"
+            android:background="#F00"
+            android:id="@+id/et1"
+            android:layout_marginLeft="24dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,7 +69,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="6"
-                android:id="@+id/b6"
+                android:id="@+id/b6"/>
             <Button
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
@@ -92,12 +94,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="9"
-                android:id="@+id/b9"
+                android:id="@+id/b9"/>
             <Button
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:text="*"
-                android:id="@+id/b3mul"/>/>
+                android:id="@+id/b3mul"/>
         </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -117,7 +119,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="="
-                    android:id="@+id/bequals"
+                    android:id="@+id/bequals"/>
                 <Button
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
